@@ -12,6 +12,7 @@ public class SoalSatu {
 	}
 	 
 	public void polaGanjil() {
+		System.out.println("Halo ini Testing Git nya!");
 		int n = getInput();
 		for (int i=1; i <=n*2; i++) {
 			if (i%2!=0) {
